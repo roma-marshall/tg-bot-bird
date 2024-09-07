@@ -6,8 +6,8 @@
 <script setup>
 import { Bot } from 'grammy'
 
-console.log(import.meta.env.VITE_ENV_VAR)
-console.log(process.env.VERCEL_ENV_VAR)
+console.log(import.meta.env.VITE_API_KEY)
+console.log(process.env.VITE_API_KEY)
 
 
 // const bot = new Bot(import.meta.env.VITE_API_KEY)
