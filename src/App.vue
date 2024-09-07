@@ -5,7 +5,6 @@
 
 <script setup>
 import { Bot } from 'grammy'
-import {c} from "vite/dist/node/types.d-aGj9QkWt.js";
 
 // const api_key = import.meta.env.VITE_API_KEY
 const api_key = process.env.VITE_API_KEY
