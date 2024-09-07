@@ -6,6 +6,7 @@
 <script setup>
 import { Bot } from 'grammy'
 
+console.log(import.meta.env.VITE_ENV_VAR)
 console.log(process.env.VERCEL_ENV_VAR)
 
 
